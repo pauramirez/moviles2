@@ -1,0 +1,169 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moviles.kanoa.Fragments.PlaceFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_backToMuseums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_backspace" />
+
+    <ImageView
+        android:id="@+id/imageview_place_fragment_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/txtOpenHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mon - Sat 8:00 - 20:00 | Sun. 10:00 - 19:00"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_car" />
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_clock" />
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_currency_dollar" />
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="30dp"
+
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_heart" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/txtKilometers"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="1.3km"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textAlignment="center"
+           />
+        <TextView
+            android:id="@+id/txtTimeToPlace"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="2Hr-20min"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/txtCurrency_place_unit"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="30.000 COP"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/txtLoveThisPlace_place_unit"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="223"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            />
+        </LinearLayout>
+    <TextView
+        android:id="@+id/txt_Name_Title_fragment_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_extended_description_fragment_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill_vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+
+        android:text="Some description lol"
+        android:textSize="14sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom = "true"
+            android:background="@color/colorBtn">
+            <ImageView
+                android:layout_width="126dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_website" />
+
+            <ImageView
+                android:layout_width="126dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_add_place" />
+
+            <ImageView
+                android:layout_width="126dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_directions" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black"
+        android:title="Home" />
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_museos"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Museums" />
+        <item
+            android:id="@+id/nav_restaurantes"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="Restaurants" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_Qr"
+            android:icon="@drawable/ic_qr"
+            android:title="QR" />
+        <item
+            android:id="@+id/nav_BLE"
+            android:icon="@drawable/ic_bluetooth_black_24dp"
+            android:title="Bluetooth" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+    </group>
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "764523951942",
+    "firebase_url": "https://kaonapp-bf218.firebaseio.com",
+    "project_id": "kaonapp-bf218",
+    "storage_bucket": "kaonapp-bf218.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764523951942:android:bd0b7e6573cc9572",
+        "android_client_info": {
+          "package_name": "com.moviles.kanoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764523951942-8ul9gt0da7g594m2ufags9sq85kd95im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moviles.kanoa",
+            "certificate_hash": "bfae9680754e759cbdfe73032844a824b0de3349"
+          }
+        },
+        {
+          "client_id": "764523951942-htrn0ihc9jqgaq0c5t4jeo51ou6itndj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKALbiw-2a4kvu8VefVtxQNAT9rmQGGXY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764523951942-htrn0ihc9jqgaq0c5t4jeo51ou6itndj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Kaona</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="zomato_api"><![CDATA[https://developers.zomato.com/api/v2.1/search?lat=-33.92127&lon=18.4180213&count=20]]></string>
+    <string name="name">KAONA</string>
+    <string name="title_activity_home2">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Near_Museums">Near Museums</string>
+    <string name="Near_Restaurants">Near Restaurants</string>
+    <string name="Near_Places">Near Places</string>
+    <string name="Home_Explore">Top Places</string>
+    <string name="Current_mail_user">Current_mail_user</string>
+    <string name="qr">QR Scanner</string>
+    <string name="google_places_api_key">AIzaSyBc4temBiFTIQCkbABhH6sVNdipsi57s4I</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nav_restaurants">Restaurants</string>
+    <string name="nav_museos">Museums</string>
+    <string name="actual_Class_bind">Museums</string>
+    <string name="ConstantMuseums">Museums</string>
+    <string name="ConstantRestaurants">Restaurants</string>
+    <string name="ConstantPlaces">Places</string>
+
+    <string name="current_object_to_show_persola_view">CurrentObjectSet</string>
+</resources>
